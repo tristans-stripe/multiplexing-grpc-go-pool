@@ -1,8 +1,8 @@
-module multiplexing_grpc_go_pool
+module github.com/tristans-stripe/multiplexing-grpc-go-pool
 
 go 1.18
 
-require google.golang.org/grpc v1.46.0
+require google.golang.org/grpc v1.46.2
 
 require (
 	github.com/golang/protobuf v1.5.2 // indirect
