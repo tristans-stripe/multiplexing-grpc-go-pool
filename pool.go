@@ -52,7 +52,7 @@ type ClientConn struct {
 
 // ConcurrencyCounter in an object is as easy way to reference the same counter from many ClientConn wrappers
 type ConcurrencyCounter struct {
-	concurrency int32 `default:0`
+	concurrency int32 `default:"0"`
 }
 
 func (c *ConcurrencyCounter) Get() int32 {
